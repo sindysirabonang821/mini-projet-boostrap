@@ -64,11 +64,11 @@ input[type="search"]{
     background-color: rgba(0, 0, 0, 0.24);
 }
 form{
-    width: 30%;
+    width: ;
     margin: auto;
 }
 .div{
-    width: 10%;
+    width: 100% !important;
     margin: auto;
 }
 .bou{
@@ -92,21 +92,22 @@ form{
     .bouton{
         width: 50rem !important;
     }
-    .div{
-        width: 100% !important;
+    /* .div{
+        width: auto !important;
         margin: auto;
-    }
+    } */
     .formulaire{
         width: 100rem !important;
     }
     .colone{
         width: 18rem !important;
         position: relative;
-        left: -5rem;
+        left: -5.9rem;
+
     }
     #form{
         width: 8rem !important;
         position: relative;
-        left: -2rem;
+        left: -2.8rem;
     }
 }
